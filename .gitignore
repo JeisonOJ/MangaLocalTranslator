@@ -1,0 +1,46 @@
+# Local runtimes, caches and build output
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+coverage/
+*.log
+*.tmp
+*.part
+
+# Local credentials
+.env
+.env.*
+!.env.example
+credentials*.json
+secrets*.json
+*.pem
+*.key
+
+# Local manga, models and generated evaluation artifacts
+/ManualImageTest/
+Mangas/
+*.cbz
+/evaluation/samples/
+/evaluation/cache/
+/evaluation/envs/
+/evaluation/mamba-root/
+/evaluation/models/
+/evaluation/results/
+/evaluation/crf-binary-audit/
+/evaluation/crf-investigation/
+/evaluation/dependency-plan/
+/evaluation/runtime-install/
+/evaluation/disk-usage.json
+/evaluation/environment.json
+/evaluation/metadata.json
+/evaluation/known-japanese.json
+
+# Independent upstream checkout (its own Git history stays local)
+/upstream/

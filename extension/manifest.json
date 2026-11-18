@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "MangaLocalTranslator Capture",
+  "version": "0.3.1",
+  "description": "Manually select a reader image and capture pages locally with conservative stopping.",
+  "permissions": ["activeTab", "scripting", "storage", "downloads", "alarms"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "background": {"service_worker": "background.js", "type": "module"},
+  "action": {"default_popup": "popup.html", "default_title": "Manga capture"}
+}

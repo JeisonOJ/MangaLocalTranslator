@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Manga capture</title><link rel="stylesheet" href="popup.css"></head>
+<body><h1>Manga capture</h1><p>Actual image downloads. Keep the reader tab open. Stop before the next chapter.</p>
+<label>Manga title<input id="title" maxlength="80"></label><label>Chapter number<input id="chapter" maxlength="40"></label>
+<label>Navigation method<select id="direction"><option value="ArrowRight">ArrowRight</option><option value="ArrowLeft">ArrowLeft</option><option value="Click" selected>Selected Click Control</option></select></label>
+<p id="activeMethod" role="status">Active navigation: Selected Click Control</p>
+<button id="pickControl">Select next-page control</button><button id="clearControl">Clear Navigation Selection</button><p id="control">No control selected.</p>
+<div class="row"><label>Maximum pages<input id="max" type="number" min="1" max="1000" value="50"></label><label>Timeout (seconds)<input id="timeout" type="number" min="5" max="120" value="15"></label></div>
+<button id="pick">Select Image</button><p id="selected">No image selected.</p>
+<div class="row"><button id="test">Test Download</button><button id="start">Start</button><button id="stop">Stop</button></div>
+<p id="counter">Downloaded: 0</p><p id="status" role="status" aria-live="polite">Ready.</p><p id="error" role="alert"></p>
+<p id="downloadPath"></p>
+<p>Test Download captures page 0001 and stops. Start continues that same session. Changed title/chapter requires a new selection. Browser download conflicts are renamed, never overwritten.</p>
+<details><summary>Performance</summary><pre id="performance" style="white-space:pre-wrap;font-size:11px"></pre><button id="copyPerformance">Copy Performance Report</button><p id="copyStatus" role="status"></p></details>
+<script src="popup.js" type="module"></script></body></html>
