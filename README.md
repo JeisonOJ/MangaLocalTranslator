@@ -71,6 +71,10 @@ Las pruebas de escritorio usan almacenamiento de credenciales simulado y solicit
 
 Este proyecto fue desarrollado como hobby con la ayuda de herramientas de inteligencia artificial, utilizadas principalmente para asistir en la programación y resolución de problemas. Las decisiones sobre su funcionamiento, las pruebas y la dirección del proyecto fueron realizadas por su creador.
 
+## ☕ Apoya el proyecto
+
+MangaLocalTranslator es un proyecto gratuito y de código abierto, desarrollado como hobby. Si te resulta útil, puedes apoyarlo con una donación voluntaria en [Ko-fi](https://ko-fi.com/jeisonoj). ¡Gracias por tu apoyo! Las donaciones no implican actualizaciones, mantenimiento ni soporte técnico garantizados.
+
 ## Licencia y atribuciones
 
 El código del proyecto se publica bajo **GPL-3.0-only**. El texto oficial se conserva en inglés en [LICENSE](LICENSE). Manga Image Translator y los demás componentes mantienen sus autores y condiciones originales. Consulte [LICENSING.md](LICENSING.md) y [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) para conocer el alcance, las atribuciones verificadas y las cuestiones pendientes.
