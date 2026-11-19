@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://github.com/zyddnys/manga-image-translator/releases/download/beta-0.3/detect-20241225.ckpt",
+    "path": "evaluation/models/detection/detect-20241225.ckpt",
+    "size": 308380176,
+    "expected": "67ce1c4ed4793860f038c71189ba9630a7756f7683b1ee5afb69ca0687dc502e",
+    "version": "beta-0.3",
+    "sha256": "67ce1c4ed4793860f038c71189ba9630a7756f7683b1ee5afb69ca0687dc502e"
+  },
+  {
+    "url": "https://github.com/zyddnys/manga-image-translator/releases/download/beta-0.3/ocr_ar_48px.ckpt",
+    "path": "evaluation/models/ocr/ocr_ar_48px.ckpt",
+    "size": 204290192,
+    "expected": "29daa46d080818bb4ab239a518a88338cbccff8f901bef8c9db191a7cb97671d",
+    "version": "beta-0.3",
+    "sha256": "29daa46d080818bb4ab239a518a88338cbccff8f901bef8c9db191a7cb97671d"
+  },
+  {
+    "url": "https://github.com/zyddnys/manga-image-translator/releases/download/beta-0.3/alphabet-all-v7.txt",
+    "path": "evaluation/models/ocr/alphabet-all-v7.txt",
+    "size": 186651,
+    "expected": "f5722368146aa0fbcc9f4726866e4efc3203318ebb66c811d8cbbe915576538a",
+    "version": "beta-0.3",
+    "sha256": "f5722368146aa0fbcc9f4726866e4efc3203318ebb66c811d8cbbe915576538a"
+  },
+  {
+    "url": "https://huggingface.co/dreMaz/AnimeMangaInpainting/resolve/2953a4e935bf01ad1471f6cbfd26ab81abeeb92d/lama_large_512px.ckpt",
+    "path": "evaluation/models/inpainting/lama_large_512px.ckpt",
+    "size": 204544673,
+    "expected": "11d30fbb3000fb2eceae318b75d9ced9229d99ae990a7f8b3ac35c8d31f2c935",
+    "version": "2953a4e935bf01ad1471f6cbfd26ab81abeeb92d",
+    "sha256": "11d30fbb3000fb2eceae318b75d9ced9229d99ae990a7f8b3ac35c8d31f2c935"
+  }
+]

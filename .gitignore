@@ -44,3 +44,36 @@ Mangas/
 
 # Independent upstream checkout (its own Git history stays local)
 /upstream/
+
+# Chapter output and review data, wherever a local run places them
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.bmp
+*.avif
+.manga-review-*.json
+.manga-review-*.tmp
+*.cb7
+*.cbr
+/output/
+/outputs/
+/downloads/
+/translated/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.onnx
+*.ttf
+*.ttc
+*.otf
+*.exe
+*.dll
+*.whl
+*.conda
+*.lnk
+*.pfx
+*.p12

@@ -140,7 +140,7 @@ Do not use upstream `--save-text` as an OCR ground-truth export: at this commit 
 
 Upstream `pyproject.toml` declares **GPL-3.0-only**; `LICENSE` contains GPLv3. Private local evaluation/modification does not itself require publishing code. If a derivative is conveyed to others, GPL obligations include preserving applicable notices and providing Corresponding Source under GPL for the covered work, with the license and required installation information where applicable. Distribution/combined-work boundaries need review before adapting or shipping a final product. GPLv3 itself does not impose AGPL-style source disclosure solely for network use.
 
-Model/data/font licenses are separate. NLLB metadata declares **CC-BY-NC-4.0**, so this proposed evaluation model is not a clean choice for future commercial use. M2M100 HF metadata declares MIT, Manga OCR Apache-2.0, and the LaMa repository metadata MIT; these labels do not replace checking individual downloaded artifacts and bundled assets. No final application's licensing suitability has been decided.
+Model/data/font licenses are separate. NLLB metadata declares **CC-BY-NC-4.0**, so this proposed evaluation model is not a clean choice for future commercial use. M2M100 HF metadata declares MIT, Manga OCR Apache-2.0, and the official LaMa code repository Apache-2.0 (the fine-tuned checkpoint card separately declares MIT); these labels do not replace checking individual downloaded artifacts and bundled assets. No final application's licensing suitability has been decided.
 
 ## Disk use and readiness
 
