@@ -73,7 +73,13 @@ Este proyecto fue desarrollado como hobby con la ayuda de herramientas de inteli
 
 ## ☕ Apoya el proyecto
 
-MangaLocalTranslator es un proyecto gratuito y de código abierto, desarrollado como hobby. Si te resulta útil, puedes apoyarlo con una donación voluntaria en [Ko-fi](https://ko-fi.com/jeisonoj). ¡Gracias por tu apoyo! Las donaciones no implican actualizaciones, mantenimiento ni soporte técnico garantizados.
+MangaLocalTranslator es un proyecto personal desarrollado por hobby y compartido gratuitamente como software de código abierto.
+
+Si te resulta útil y quieres apoyar su desarrollo, puedes invitarme a un café. ¡Cualquier aporte es bienvenido y completamente voluntario!
+
+☕ [**Apóyame en Ko-fi**](https://ko-fi.com/jeisonoj)
+
+Tu apoyo me motiva a seguir aprendiendo, mejorando mis proyectos y compartiendo nuevas ideas con la comunidad.
 
 ## Licencia y atribuciones
 
